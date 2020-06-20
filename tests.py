@@ -8,8 +8,8 @@ class TestCase(unittest.TestCase):
     def setUp(self):
         good_pw = ""
 
-    def test_mydate(self):
-        self.assertEqual(None, func1(87))
+    def test_func1(self):
+        self.assertEqual(0, func1(87))
 
 
 if __name__ == '__main__':
