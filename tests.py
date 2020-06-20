@@ -9,7 +9,7 @@ class TestCase(unittest.TestCase):
         good_pw = ""
 
     def test_func1(self):
-        self.assertEqual(0, func1(87))
+        self.assertEqual(0, func1("dog"))
 
 
 if __name__ == '__main__':
